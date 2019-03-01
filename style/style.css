@@ -13,7 +13,7 @@ body {
 
 .navbar {
   font-size: 1rem;
-  background-color: rgb(220,220,220,0.5)!important;
+  background-color: rgb(220,220,220)!important;
 }
 
 .navbar li {
@@ -41,7 +41,9 @@ body {
 }
 
 .home-inner {
-  color: black;
+  background-image: url(luc.jpg)!important;
+  background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .caption {
@@ -68,5 +70,25 @@ body {
   border-color: black;
   padding: .6rem 1.3rem;
   font-size: 1.1rem;
+  color: black;
+}
+
+.heading-underline {
+  width:10rem;
+  height:.2rem;
+  background-color: #800000;
+  margin: 0 auto 2rem;
+  margin-top: 2rem;
+}
+
+.ame-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: .2rem;
+  color: black;
+}
+
+.row {
+  margin-top: -2rem;
   color: black;
 }
