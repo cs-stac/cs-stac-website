@@ -42,8 +42,6 @@ body {
 
 .home-inner {
   background-image: url(luc.jpg)!important;
-  background-size: cover;
- background-repeat: no-repeat;
 }
 
 .caption {
@@ -91,4 +89,14 @@ body {
 .row {
   margin-top: -2rem;
   color: black;
+  font-size: 1.2rem;
+}
+
+.heading {
+  text-align: center;
+  color: black!important;
+}
+
+.jumbotron {
+  background-color: rgb(220,220,220);
 }
