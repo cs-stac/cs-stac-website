@@ -17,7 +17,7 @@ body {
 }
 
 .navbar{
-    width:80% !important;
+    width:85% !important;
     margin:0px auto;
     left:0;
     right:0;
@@ -28,13 +28,13 @@ body {
 }
 
 .navbar li {
-  display: inline;
+  display: block;
   padding-right: 30px;
 }
 
 .navbar-brand img {
   height: 4rem;
-  padding-left: 40px;
+  padding-left: 25px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -49,11 +49,24 @@ body {
 
 .navbar-toggler {
   background-color:black!important;
+  margin-right: 20px!important;
+  width: 40px!important;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.navbar-toggler-icon {
+  width: 15px !important;
+  height: 20px !important;
+}
+
+.nav-item {
+  padding-left: 10px;
 }
 
 .home-inner {
   background-image: url(../luc.jpg)!important;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 .caption {
