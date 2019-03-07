@@ -17,6 +17,9 @@ body {
 }
 
 .navbar{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
     width:85% !important;
     margin:0px auto;
     left:0;
@@ -113,6 +116,14 @@ body {
   margin-top: 2rem;
 }
 
+.heading-underline-jumbotron {
+  width:10rem;
+  height:.05rem;
+  background-color: #800000;
+  margin: 0 auto 2rem;
+  margin-top: 2rem;
+}
+
 .ame-heading {
   font-size: 3rem;
   text-align: center;
@@ -126,6 +137,17 @@ body {
   font-size: 1.2rem;
 }
 
+.mem {
+  color: gray;
+  padding-top: 1rem;
+}
+
+.row ul {
+  list-style-type: none;
+  color: gray;
+  font-size: 1rem;
+}
+
 .heading {
   text-align: center;
   color: black!important;
@@ -133,10 +155,19 @@ body {
 }
 
 .jumbotron {
-  background-color: rgb(220,220,220);
+  background-color: white;
 }
+
 
 .content-p {
   font-size: 1.2rem;
   color: black!important;
+}
+
+.narrow {
+  color: white;
+}
+
+.narrow ul li {
+  list-style-type: none;
 }
