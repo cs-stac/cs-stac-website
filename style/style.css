@@ -69,7 +69,7 @@ body {
 
 .home-inner {
   background-image: url(../luc.jpg)!important;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .caption {
@@ -109,25 +109,25 @@ body {
 }
 
 .heading-underline {
-  width:20rem;
+  width:21rem;
   height:.05rem;
   background-color: #800000;
   margin: 0 auto 2rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .heading-underline-jumbotron {
-  width:10rem;
+  width:10.5rem;
   height:.05rem;
   background-color: #800000;
   margin: 0 auto 2rem;
-  margin-top: 2rem;
 }
 
 .ame-heading {
+  padding-top: 3rem;
   font-size: 3rem;
   text-align: center;
-  margin-bottom: .2rem;
+  /* margin-bottom: .2rem; */
   color: black;
 }
 
@@ -170,4 +170,33 @@ body {
 
 .narrow ul li {
   list-style-type: none;
+}
+
+.clubs-heading {
+  font-size: 1.8rem;
+  color: black;
+}
+
+/* .clubs-text {
+  color:black;
+  font-size:1.2rem;
+} */
+
+.clubs {
+  color: black;
+  font-size: 1rem;
+}
+
+.clubs-heading-underline {
+  width:16.5rem;
+  height:.05rem;
+  background-color: #800000;
+  margin: 0 auto 2rem;
+}
+
+.suggestions-heading-underline {
+  width:16.5rem;
+  height:.05rem;
+  background-color: #800000;
+  margin: 0 auto 2rem;
 }
