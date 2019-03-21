@@ -4,6 +4,16 @@ body {
   color: #505962;
 }
 
+a {
+  color: #800000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 .name {
   font-size: 2rem;
   color: black;
@@ -20,7 +30,7 @@ body {
   -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-    width:85% !important;
+    width:85%!important;
     margin:0px auto;
     left:0;
     right:0;
@@ -59,8 +69,8 @@ body {
 }
 
 .navbar-toggler-icon {
-  width: 15px !important;
-  height: 20px !important;
+  width: 15px!important;
+  height: 20px!important;
 }
 
 .nav-item {
