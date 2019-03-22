@@ -26,18 +26,17 @@ a:hover {
   background-color: rgb(220,220,220)!important;
 }
 
-.navbar{
+.navbar {
   -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
-    width:85%!important;
-    margin:0px auto;
-    left:0;
-    right:0;
-    top: 15px;
-    padding:0;
-    background-color: white!important;
-
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  width:85%!important;
+  margin:0px auto;
+  left:0;
+  right:0;
+  top: 15px;
+  padding:0;
+  background-color: white!important;
 }
 
 .navbar li {
@@ -123,7 +122,6 @@ a:hover {
   height:.05rem;
   background-color: #800000;
   margin: 0 auto 2rem;
-  /* margin-top: 2rem; */
 }
 
 .heading-underline-jumbotron {
@@ -137,7 +135,6 @@ a:hover {
   padding-top: 3rem;
   font-size: 3rem;
   text-align: center;
-  /* margin-bottom: .2rem; */
   color: black;
 }
 
@@ -168,7 +165,6 @@ a:hover {
   background-color: white;
 }
 
-
 .content-p {
   font-size: 1.2rem;
   color: black!important;
@@ -187,11 +183,6 @@ a:hover {
   color: black;
 }
 
-/* .clubs-text {
-  color:black;
-  font-size:1.2rem;
-} */
-
 .clubs {
   color: black;
   font-size: 1rem;
@@ -205,8 +196,15 @@ a:hover {
 }
 
 .suggestions-heading-underline {
-  width:16.5rem;
+  width: 16.5rem;
   height:.05rem;
+  background-color: #800000;
+  margin: 0 auto 2rem;
+}
+
+.getinvolved {
+  width: 42rem;
+  height: .07rem;
   background-color: #800000;
   margin: 0 auto 2rem;
 }
