@@ -195,6 +195,10 @@ a:hover {
   margin: 0 auto 2rem;
 }
 
+#suggestions {
+  margin-bottom: 8rem;
+}
+
 .suggestions-heading-underline {
   width: 16.5rem;
   height:.05rem;
