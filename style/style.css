@@ -149,6 +149,18 @@ a:hover {
   padding-top: 1rem;
 }
 
+#about {
+  padding-top: 2rem;
+}
+
+#content {
+  padding-top: 1rem;
+}
+
+#clubs {
+  padding-top: 2rem;
+}
+
 .row ul {
   list-style-type: none;
   color: gray;
@@ -211,4 +223,12 @@ a:hover {
   height: .07rem;
   background-color: #800000;
   margin: 0 auto 2rem;
+}
+
+.footer {
+  background-color: #800000;
+  position: sticky;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
 }
