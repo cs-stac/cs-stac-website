@@ -289,3 +289,8 @@ a:hover {
   float: right;
 }
 /* End footer styling */
+
+.footer .heading {
+  font-size: 1rem;
+  position: absolute;
+}
