@@ -177,6 +177,13 @@ a:hover {
   justify-content: space-evenly;
 }
 
+.picture-row-alumni {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  justify-content: space-evenly;
+}
+
 /* Adding responsivity for images */
 @media only screen and (max-width: 1200px) {
   .picture-row-top {
